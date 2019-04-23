@@ -1,0 +1,3 @@
+install visual studio code
+install node
+install git bash

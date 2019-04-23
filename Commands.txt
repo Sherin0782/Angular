@@ -1,0 +1,15 @@
+to create package.json
+npm init
+
+to install a package
+npm install zone.js --save
+
+to create seed or cli
+run cmd as admin
+npm install -g @angular/cli
+
+to create new application
+ng new productapp
+
+to compile and run
+npm start

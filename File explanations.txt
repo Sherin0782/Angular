@@ -1,0 +1,63 @@
+Readme.md 
+information about app
+
+package.json
+dependency, start command
+
+package.lock.json
+information about minor version(main package may be dependent on another package)
+
+.gitignore
+which files not pushed to git /folder name
+
+node_modules
+all dependencies
+
+src
+all code 
+hot reloading
+
+.editorconfiguration
+same coding patterns like indent
+
+angular.json/angular-cli.json
+This is first file that provide all paths like html,favicon,css,index etc
+mapping file
+
+tsconfig.json
+convert ts to es5(Ecmascript)script files latest es10(168 features in new version of javascript)
+transpilers babel
+
+tslint.json
+linting of code
+specification of angular coding
+coding standards
+
+Page call order
+-----------------
+package.json
+angular.json
+main.ts
+index.html
+
+app.module.ts
+app.component.ts
+other modules & components
+
+Building blocks of angular
+--------------------------
+modules=>declare all building blocks
+component=>all logic,html,css
+pipes=> to manipulate the data on runtime
+services=>to connect to external API or database(json format result)
+routing=>to make app single page and navigate between pages
+
+one main module and component then n no of modules and components
+
+Imports
+-------
+module=>NgModule
+component=>Component   back teck key
+pipes=>Pipe,PipeTransform
+services=>Injectable
+Routing=>RouterModule
